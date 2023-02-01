@@ -1,11 +1,19 @@
+<script>
+    import SocialPage from "./social-page.svelte";
+</script>
 <nav>
     <div id="logo">
-        WF
+        <a href="/">
+           <img src="images\WFRecordsLogoLargeNoBG.png" width="60px" height="60px" alt="logo"/>
+        </a>
     </div>
-    <div id="linkContainer">
-        <a href="/">Home</a>
+    <div id="inHouselinkContainer">
         <a href="/">About</a>
+        <a href="/">Pricing</a>
+    </div>
+    <div id="socialsLinkContainer">
         <a href="/">Contact Us</a>
+        <a href="/social-page">Socials</a>
     </div>
 </nav>
 
@@ -17,7 +25,12 @@
         align-items: center;
         background-color: #56DAFC;
     }
-    #linkContainer{
+    #inHouselinkContainer{
         font-style: italic;
+    }
+
+    #logo{
+        color: #000;
+        padding: 0 1rem;
     }
 </style>
