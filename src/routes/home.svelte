@@ -28,4 +28,8 @@
     p{
         font-style: italic;
     }
+    #titleSection{
+        height: 100vh;
+        background: #56DAFC;
+    }
 </style>
