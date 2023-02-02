@@ -2,7 +2,6 @@
     import TopNavbar from "./top-navbar.svelte";
 </script>
 <div id="head">
-    <TopNavbar></TopNavbar>
 </div>
 <div id="body">
     <section id="titleSection">
@@ -30,6 +29,5 @@
     }
     #titleSection{
         height: 100vh;
-        background: #56DAFC;
     }
 </style>

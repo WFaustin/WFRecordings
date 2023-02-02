@@ -1,5 +1,5 @@
 <script>
-    import SocialPage from "./social-page.svelte";
+    
 </script>
 <nav>
     <div id="logo">
@@ -13,7 +13,7 @@
     </div>
     <div id="socialsLinkContainer">
         <a href="/">Contact Us</a>
-        <a href="/social-page">Socials</a>
+        <a href="/social-media">Socials</a>
     </div>
 </nav>
 
