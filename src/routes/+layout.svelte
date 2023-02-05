@@ -38,4 +38,8 @@
 			padding: 12px 0;
 		}
 	}
+
+	slot{
+		justify-content: center;
+	}
 </style>

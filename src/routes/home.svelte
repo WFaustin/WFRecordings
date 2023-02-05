@@ -5,7 +5,7 @@
 </div>
 <div id="body">
     <section id="titleSection">
-        <div>
+        <div id="toptext">
             <h1>WF Recordings</h1>
             <p>
                 Committed to providing musical services all across the globe.
@@ -29,5 +29,8 @@
     }
     #titleSection{
         height: 100vh;
+    }
+    #toptext{
+        align-items: center;
     }
 </style>
