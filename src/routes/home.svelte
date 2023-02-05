@@ -2,11 +2,10 @@
     import TopNavbar from "./top-navbar.svelte";
 </script>
 <div id="head">
-    <TopNavbar></TopNavbar>
 </div>
 <div id="body">
     <section id="titleSection">
-        <div>
+        <div id="toptext">
             <h1>WF Recordings</h1>
             <p>
                 Committed to providing musical services all across the globe.
@@ -30,6 +29,8 @@
     }
     #titleSection{
         height: 100vh;
-        background: #56DAFC;
+    }
+    #toptext{
+        align-items: center;
     }
 </style>
