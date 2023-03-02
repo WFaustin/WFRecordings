@@ -8,12 +8,18 @@
         </a>
     </div>
     <div id="inHouselinkContainer">
+        <div>
+            <a href="/">About</a>
+        </div>
+        <div>
+            <a href="/">Pricing</a>
+        </div>
+        <div>
+            <a href="/">Contact Us</a>
+        </div>
         <a href="/">About</a>
         <a href="/">Pricing</a>
-    </div>
-    <div id="socialsLinkContainer">
         <a href="/">Contact Us</a>
-        <a href="/social-media">Socials</a>
     </div>
 </nav>
 
@@ -21,9 +27,8 @@
     nav{
         height: 70px; 
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        background-color: #56DAFC;
     }
     #inHouselinkContainer{
         font-style: italic;

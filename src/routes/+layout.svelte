@@ -1,10 +1,12 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+    import TopNavbar from './top-navbar.svelte';
 </script>
 
 <div class="app">
 	<Header />
+	<TopNavbar />
 
 	<main>
 		<slot />
