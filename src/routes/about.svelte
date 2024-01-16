@@ -1,3 +1,0 @@
-<p>
-    About Me Page
-</p>
