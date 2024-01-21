@@ -1,4 +1,4 @@
-name: Deploy to GitHub as Website
+name: Deploy to GitHub as Website Please
 
 on:
   push:
