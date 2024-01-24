@@ -3,8 +3,13 @@
     export let y;
 
     let tabs = [
+        {name: 'About', link: ''},
+        {name: 'Pricing', link: ''},
+        /*
+        need to add sections first
         {name: 'About', link: '#about'},
         {name: 'Pricing', link: '#pricing'},
+        */
     ];
     let linktabs = [
         {name: 'Contact', link: 'contact'}

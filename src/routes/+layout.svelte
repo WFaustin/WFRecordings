@@ -1,6 +1,7 @@
 <script>
     import "../app.css";
     import Header from "../components/Header.svelte";
+    import { base } from '$app/paths';
 
     let y;
     let innerHeight = 0;
